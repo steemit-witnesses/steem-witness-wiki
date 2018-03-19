@@ -16,6 +16,10 @@
 # Additional Resources
 ----
 * [Steem Witness -- steem.center](https://www.steem.center/index.php?title=Steem_Witness)
+* [Introducing: Steem Pressure #1](https://steemit.com/steem-pressure/@gtg/introducing-steem-pressure-1)
+* [Introducing: Steem Pressure #2](https://steemit.com/steem-pressure/@gtg/steem-pressure-2-toys-for-boys-and-girls)
+* [Introducing: Steem Pressure #3](https://steemit.com/steem-pressure/@gtg/steem-pressure-3-steem-node-101)
+
 
 # Witness Reports
 ----
