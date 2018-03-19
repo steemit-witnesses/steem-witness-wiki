@@ -29,9 +29,9 @@ Some of the requirements for this are:
 
 # Implementation
 
-The wiki entry point is really a portal/landing page maintained in git. Witnesses can contribute to the wiki by submitting pull requests (PRs) to the [git repository](https://github.com/steem-witnesses/steem-witness-wiki). 
+The wiki entry point is really a portal/landing page maintained in git. Witnesses can contribute to the wiki by submitting pull requests (PRs) to the [git repository](https://github.com/steemit-witnesses/steem-witness-wiki). 
 
-> See the [Contribution Instructions](https://github.com/steem-witnesses/steem-witness-wiki/blob/master/CONTRIBUTING.md)
+> See the [Contribution Instructions](https://github.com/steemit-witnesses/steem-witness-wiki/blob/master/CONTRIBUTING.md)
 
 ## Process Flow
 1. Each week, the wiki is branched. (Ex., 01-01-2018)
