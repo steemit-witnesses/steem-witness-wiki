@@ -29,9 +29,26 @@ Some of the requirements for this are:
 
 # Implementation
 
-The wiki entry point is really a portal/landing page maintained in git. Witnesses can contribute to the wiki by submitting pull requests (PRs) to the [git repository](https://github.com/r351574nc3/steem-witness-wiki). 
+The wiki entry point is really a portal/landing page maintained in git. Witnesses can contribute to the wiki by submitting pull requests (PRs) to the [git repository](https://github.com/steem-witnesses/steem-witness-wiki). 
 
-> See the [Contribution Instructions](https://github.com/r351574nc3/steem-witness-wiki/blob/master/CONTRIBUTING.md)
+> See the [Contribution Instructions](https://github.com/steem-witnesses/steem-witness-wiki/blob/master/CONTRIBUTING.md)
 
-## Template
+## Process Flow
+1. Each week, the wiki is branched. (Ex., 01-01-2018)
+1. Witnesses can then modify the wiki (via PR) to add 
+    * Witness Updates
+    * New links
+    * Link corrections
+    * More guides
+    * Reference updates
+1. At the end of the week, a witness creates a PR to merge the weekly branch into the `publish` branch. (The witness can self-merge since the content has already been thoroughly PR'd up until this point)
+1. Once the PR is merged, a github webhook fires on a separate service. This service will
+    1. Pull the publish branch
+    1. Publish to the Steem blockchain with the title (Witness Wiki (01-01-2018))
+    1. The bot will then update the `comment_options` on the post setting one of the following:
+        * Adding all witnesses as equal beneficiaries to the post
+        * Reducing payout to 0 SBD denying payout.
 
+## Template 
+
+The wiki maintains a consistent format through a template. 
