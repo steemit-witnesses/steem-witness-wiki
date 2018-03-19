@@ -18,6 +18,8 @@ This wiki does the following:
 1. Links to Witness Updates
 1. Portal for updates and information important to witnesses
 
+One of the biggest advantages here is that it's not actually a wiki, but a digest. This forces updates to happen on a weekly basis. The information is vetted and updated weekly. There's no question if the information is relevant or accurate because it's checked every week and maintained by all witnesses.
+
 # Requirements
 
 Some of the requirements for this are:
