@@ -1,5 +1,6 @@
 # steem-witness-wiki
 Wiki for witness documentation
+> **Notice** this needs to be revised to reflect how things currently work.
 
 ## Motivation 
 
